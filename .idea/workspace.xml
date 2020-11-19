@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ed2de65-36ae-42bb-a61a-85ec5b375942" name="Default" comment="ffff" />
+    <list default="true" id="3ed2de65-36ae-42bb-a61a-85ec5b375942" name="Default" comment="ffff">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjt/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjt/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjt/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjt/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjt/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjt/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjt/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +56,7 @@
     <servers />
   </component>
   <component name="ProjectId" id="1kAWQmtTrkcDvk1NrRKvrGsHus2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -269,7 +278,7 @@
       <workItem from="1605667643242" duration="11999000" />
       <workItem from="1605754574376" duration="4793000" />
       <workItem from="1605766637334" duration="1785000" />
-      <workItem from="1605768435983" duration="163000" />
+      <workItem from="1605768435983" duration="3863000" />
     </task>
     <task id="LOCAL-00001" summary="ffff">
       <created>1605767706183</created>
@@ -340,6 +349,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="951" y="196" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605680604881" />
+    <state x="894" y="405" key="Github.ShareDialog" timestamp="1605768673867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="894" y="405" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605768673867" />
+    <state x="726" y="204" key="Github.UntrackedFilesDialog" timestamp="1605768706173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="204" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605768706173" />
     <state width="1222" height="236" key="GridCell.Tab.0.bottom" timestamp="1605766552012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -392,10 +409,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="179" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605593508717" />
-    <state x="561" y="92" width="998" height="749" key="SettingsEditor" timestamp="1605768597734">
+    <state x="561" y="92" width="998" height="749" key="SettingsEditor" timestamp="1605770742681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="561" y="92" width="998" height="749" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605768597734" />
+    <state x="561" y="92" width="998" height="749" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605770742681" />
     <state x="655" y="260" key="Vcs.Push.Dialog.v2" timestamp="1605768215850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

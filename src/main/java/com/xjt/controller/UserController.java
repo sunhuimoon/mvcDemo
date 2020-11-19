@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-
+import java.util.List;
 
 
 @Controller
@@ -27,13 +27,27 @@ public class UserController {
             @PathVariable(name = "id") long id
     ) throws Exception {
         ModelAndView mv = new ModelAndView();
-//        mv.setViewName("hello");
         User user = userService.selectUser(id);
         logger.info("+++++++++打印日日日日志select+++++++++++");
         mv.addObject("user", user);
         mv.setViewName("hello");
         return mv;
     }
+/*
+    * @Description
+    * @params []
+    * @return org.springframework.web.servlet.ModelAndView
+    * @author sh
+    * @since 2020/11/19 16:07
+*/
+    @RequestMapping("/select")
+    @ResponseBody
+    public List<User> selectAllUser() throws Exception {
+        List<User> user = userService.selectAllUser();
+        logger.info("+++++++++打印日日日日志select+++++++++++");
+        return user;
+    }
+
     @PostMapping("/insert")
     @ResponseBody
     public User insertUser(

@@ -7,6 +7,9 @@
     <select id="selectUser" resultType="User" parameterType="long">
         SELECT * FROM user WHERE id = #{id}
     </select>
+    <select id="selectAllUser" resultType="User">
+        SELECT * FROM user
+    </select>
      <insert id="insertUser" parameterType="com.xjt.model.User">
          INSERT INTO user(email,username,role,mobile) VALUES (#{email},#{username},#{role},#{mobile})
      </insert>

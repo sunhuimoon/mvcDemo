@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service("userService")
 public class UserServiceImpl implements IUserService {
@@ -23,5 +24,9 @@ public class UserServiceImpl implements IUserService {
     public void insertUser(User user){
         logger.info("日志 ===== 进入userService====insertUser");
         userDao.insertUser(user);
+    }
+    public List<User> selectAllUser(){
+        List<User> userlist = userDao.selectAllUser();
+        return userlist;
     }
 }
